@@ -19,7 +19,7 @@ const RiskScoreGraphCard = () => {
       <h1 className="w-[80%] text-2xl font-semibold text-darkblue">
         Excepted Risk Score Distribution
       </h1>
-      <div className="flex justify-center h-[250px] w-full">
+      <div className="flex justify-center h-[280px] w-full">
         <Doughnut
           data={chartData}
           options={{

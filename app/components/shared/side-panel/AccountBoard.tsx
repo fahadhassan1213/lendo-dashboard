@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
-import { AccountBalanceIcon, InfoIcon } from "./icons";
+import { AccountBalanceIcon, InfoIcon } from "../../icons";
 
 const AccountBoard = () => {
   return (

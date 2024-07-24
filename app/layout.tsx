@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Header, SidePanel } from "./components/shared";
+import { Header } from "./components/shared";
+import { SidePanel } from "./components/shared/side-panel";
 
 export const metadata: Metadata = {
   title: "Lendo Dashboard",

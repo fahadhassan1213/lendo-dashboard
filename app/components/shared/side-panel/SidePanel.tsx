@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import AccountBoard from "../AccountBoard";
+import AccountBoard from "./AccountBoard";
 
 const SidePanel = () => {
   return (
