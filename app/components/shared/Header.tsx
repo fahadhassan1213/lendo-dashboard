@@ -13,6 +13,7 @@ const Header = () => {
         <nav className="flex gap-10 font-thin relative">
           {tabs.map((tab) => (
             <a
+              key={tab}
               href="#"
               className={`text-darkblue capitalize ${
                 activeTab === tab
